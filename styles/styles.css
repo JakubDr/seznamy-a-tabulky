@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(172, 43, 43);
+    text-align: center;
+}
+
+body{
+    font-family: Arial;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+table, tr, td, th, thead, tbody, caption{
+    border-collapse: collapse;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+caption{
+    background-color: #252525;
+    color: white;
+    margin: 2px;
+    padding: 2px;
+}
+
+thead, tfoot{
+    background-color: lightgray;
+}
+
+.red{
+    color: rgb(255, 0, 0);
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
